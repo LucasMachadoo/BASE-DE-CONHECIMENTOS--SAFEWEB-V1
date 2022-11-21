@@ -1,0 +1,192 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.body{
+font-family: 'Inter', sans-serif;
+margin: 0;
+}
+.main-login {
+position:absolute;
+width: 100vw;
+height:100vh;
+overflow: hidden;
+background: linear-gradient(358.55deg, #00416A 2.43%, #E4E5E6 150.48%);
+display:flex;
+justify-content: center;
+align-items:center;
+}
+.left-login{
+width:50vw;
+height: 100vh;
+display:flex;
+justify-content: center;
+align-items:center;
+}
+.login-banner1{
+  position: absolute;
+  width: 550px;
+  height: 600px;
+  left: 260px;
+  top: 227.35px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.login-banner1:hover{
+  transform: translateY(3px);
+  }
+
+.right-login{
+width:50vw;
+height: 60vh;
+display:flex;
+justify-content: center;
+align-items:center;
+}
+.card-login{
+width: 40%;
+font-family: 'Inter', sans-serif;
+height: 65%;
+display:flex;
+justify-content: center;
+align-items:center;
+flex-direction: column;
+padding: 30px 35px;
+background: linear-gradient(128.67deg, rgba(217, 217, 217, 0.3) -76.57%, rgba(217, 217, 217, 0) 114.08%);
+border-radius: 10px;   
+box-shadow: 0px 10px 50px 10px rgba(0, 0, 0, 0.25); 
+}
+.logo-login{
+position: absolute;
+width: 200px;
+height: 80px;
+left: 1278px;
+top: 215px;
+display:flex;
+justify-content: center;
+align-items:center;
+}
+.card-login > h1{
+left: 1295px;
+top: 218px;
+font-size: 3vw;
+color: #E8F1F2;
+font-weight: 500;
+font-family: 'Inter', sans-serif;
+text-transform: uppercase;
+letter-spacing: 12px;
+margin: 0;
+font-size: 30px;
+}
+
+
+.card-login > h1:hover {
+	color: #cfd3d3;
+	
+
+}
+.textfield{
+width: 100%;
+margin: 10px 0px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+}
+.textfield > input{
+width: 100%;
+border: none;
+border-radius: 10px;
+padding: 15px;
+background: #D9D9D9;
+color: linear-gradient(270deg, #247BA0 42.35%, #046893 91.42%);
+font-size: 12pt;
+outline: none;
+box-sizing: border-box;
+}
+.textfield > label{
+color:#FFFFFF;
+margin-bottom: 10px;
+}
+
+.textfield > ::placeholder{
+color: rgba(70, 70, 70, 0.28);
+}
+.btn-login{
+width: 100%;
+padding: 16px 0px;
+margin: 25px;
+border: none;
+text-transform: uppercase;
+font-weight: 800;
+letter-spacing: 2.5px;
+font-weight: 500;
+color: #000;
+background-color: #fff;
+border: none;
+border-radius: 10px;
+box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease 0s;
+cursor: pointer;
+outline: none;
+}
+
+button:hover {
+background-color: #23c483;
+box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+color: #fff;
+transform: translateY(-7px);
+}
+
+button:active {
+transform: translateY(-1px);
+}
+
+
+
+@media only screen and (max-width:950px){
+  .card-login{
+    width: 85%;
+  }
+  .login-banner1{
+    width: 500px;
+    height: auto;
+    flex-direction: column;
+  }
+
+}
+@media only screen and (max-width:600px){
+  .main-login{
+  flex-direction: column;
+  }
+  .card-login > h1{
+   width: 100%;
+   height: auto;
+  }
+
+}  
+#footer{
+  position: absolute;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 13px;
+  margin: 20px 0 0;
+  padding: 1em;
+  width: 100%;
+  top: 950px;
+  background-color: #13293D;
+  margin-top: 10px;
+}
+.logo-footer{
+  width: 180px;
+height: 70px;
+  
+}
+.logo-footer:hover{
+  transform: translateY(3px);
+}

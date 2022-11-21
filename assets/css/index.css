@@ -1,0 +1,655 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+}
+.body{
+font-family: 'Inter', sans-serif;
+margin: 0;
+
+}
+
+/*=============== NAVBAR ===============*/
+
+.caixa {
+display:flex;
+align-items: center;
+padding: 1em;
+background: linear-gradient(90.08deg, #247BA0 43.62%, #006494 86.49%);
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.logo-header{
+width: 167px;
+height: 46px;
+left: 1000px;
+top: 200px;
+}
+
+
+.search-01{
+position: absolute;
+width: 468px;
+height: 40px;
+left: 486px;
+top: 29px;
+background:transparent;
+border-radius: 10px;
+}
+
+input {
+position: absolute;
+width: 468px;
+height: 40px;
+left: 130px;
+top: 100;
+background: #E8F1F2;
+border-radius: 10px;
+border: none;
+outline: none;
+padding: 10px;
+}
+
+.btn-search{
+position: absolute;
+width: 46px;
+height: 40px;
+left: 560px;
+top: 90;
+background: #E8F1F2;
+border-radius: 10px;
+border: none;
+}
+.dropbtn {
+position: absolute;
+display: flex;
+align-items: center;
+background:transparent;
+text-transform: uppercase;
+font-size: 16pt;
+font-family: 'Inter', sans-serif;
+color:#E8F1F2;
+width: 350px;
+height: 40px;
+left: 1320px;
+top: -20px;
+margin:auto;
+font-size: 16px;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 290px;
+  height: 40px;
+  left: 1350px;
+  top: 15px;
+  min-width: 160px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  background:#ffffff;
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  color: rgb(50, 49, 49);
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #247BA0}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  color:#bcb9b9;
+}
+.icone-drop{
+ height: 20px;
+ left: 1000px;
+ top: 20px;
+}
+.material-symbols-outlined {
+  font-variation-settings: 
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+/*=============== MAIN ===============*/
+.card-fav{
+  position: absolute;
+  text-transform: uppercase;
+  width: 800px;
+  height: 168px;
+  left: 80px;
+  top: 144px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.card-fav > p {
+  position: absolute;
+  width: 350px;
+  height: 23px;
+  left: 250px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  color: #0B4669;
+}
+.card-fav > a {
+  display:block;
+  column-fill:auto;
+  max-height:300px;
+  padding-inline-start: 20px;
+  margin: 0;
+
+}
+.card-fav > button{
+  position: absolute;
+  color: #13293D;
+  background: #ffffff;
+  border:none;
+  left: 770px;
+}
+.card-avisos{
+  position: absolute;
+  width: 800px;
+  height: 168px;
+  left: 1000px;
+  text-transform: uppercase;
+  top: 144px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.card-avisos > p {
+  position: absolute;
+  width: 350px;
+  height: 23px;
+  left: 250px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  color: #0B4669;
+}
+.card-avisos > button{
+  position: absolute;
+  color: #13293D;
+  background: #ffffff;
+  border:none;
+  left: 770px;
+}
+
+.retangulo-prod{
+  position: absolute;
+  color:#ffffff;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  font-size: 1px;
+  font-size: 4pt;
+  letter-spacing: 3px;
+  line-height: 19px;
+  width: 400px;
+  height: 38px;
+  left: 80px;
+  top: 346px;
+  padding: 10px;
+  background: linear-gradient(90deg, #247BA0 26.36%, #05719E 110.04%);
+  border-radius: 5px;
+  
+}
+.retangulo-manu{
+  position: absolute;
+  color:#ffffff;
+  background: linear-gradient(90deg, #247BA0 26.36%, #05719E 110.04%);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: 'Inter', sans-serif;
+  font-size: 4pt;
+  left: 600px;
+  width: 1200px;
+  top: 346px;
+  height: 38px;
+  padding:10px;
+  border-radius: 5px;
+  line-height: 19px;
+
+}
+.card-main-01{
+position: absolute;
+width: 400px;
+height: 160px;
+left: 80px;
+top: 420px;
+background: #FFFFFF;
+box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.card-main-02{
+  position: absolute;
+  font-family: 'Inter';
+  width: 400px;
+  height: 160px;
+  left: 600px;
+  top: 420px;
+  width: 1200px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.card-main-03{
+  position: absolute;
+  width: 400px;
+  height: 160px;
+  left: 80px;
+  top: 600px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.card-main-04{
+  position: absolute;
+  width: 400px;
+  height: 160px;
+  left: 600px;
+  top: 600px;
+  width: 1200px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.card-main-05{
+  position: absolute;
+  width: 400px;
+  height: 160px;
+  left: 80px;
+  top: 780px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+}
+.card-main-06{
+  position: absolute;
+  width: 400px;
+  height: 160px;
+  left: 600px;
+  top: 780px;
+  width: 1200px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+}
+.card-main-07{
+  position: absolute;
+  width: 400px;
+  height: 160px;
+  left: 80px;
+  top: 962px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.card-main-08{
+  position: absolute;
+  width: 400px;
+  height: 160px;
+  left: 600px;
+  top: 962px;
+  width: 1200px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+}
+.card-main-09{
+  position: absolute;
+  width: 400px;
+  height: 160px;
+  left: 80px;
+  top: 1140px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.card-main-10{
+  position: absolute;
+  width: 400px;
+  height: 160px;
+  left: 600px;
+  top: 1140px;
+  width: 1200px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.card-main-11{
+  position: absolute;
+  width: 400px;
+  height: 160px;
+  left: 80px;
+  top: 1320px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.card-main-12{
+  position: absolute;
+  width: 400px;
+  height: 160px;
+  left: 600px;
+  top: 1320px;
+  width: 1200px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.rentagulo-central{
+  position: absolute;
+  color:#ffffff;
+  background: linear-gradient(90deg, #247BA0 26.36%, #05719E 110.04%);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: 'Inter', sans-serif;
+  font-size: 4pt;
+  left: 80px;
+  width: 1720px;
+  top: 1500px;
+  height: 38px;
+  padding:10px;
+  border-radius: 5px;
+  line-height: 19px;
+}
+.card-3{
+  position: absolute;
+  text-transform: uppercase;
+  width: 800px;
+  height: 168px;
+  left: 80px;
+  top: 1560px;
+  background: #FFFFFF;
+box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.card-3 >h4{
+  position: absolute;
+  width: 350px;
+  height: 23px;
+  left: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  color: #0B4669;
+}
+.card-3 >h4>i{
+font-size: 8Pt;
+letter-spacing: 0.1em;
+}
+
+.card-3 > button{
+  position: absolute;
+  color: #13293D;
+  background: #ffffff;
+  border:none;
+  left: 770px;
+}
+.card-4{
+  position: absolute;
+  width: 800px;
+  height: 168px;
+  left: 1000px;
+  text-transform: uppercase;
+  top: 1560px;
+  background: #FFFFFF;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;  
+}
+.card-4 >h4{
+  position: absolute;
+  width: 350px;
+  height: 23px;
+  left: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  color: #0B4669;
+}
+.card-4> button{
+  position: absolute;
+  color: #13293D;
+  background: #ffffff;
+  border:none;
+  left: 770px;
+}
+.line-01{
+position: absolute;
+top:22px;
+padding-left: 20px;
+
+}
+
+.card-main-02>a:active {
+  color: yellow;
+  text-decoration: none;
+}
+
+
+.container-main-card{
+  font-family: 'Inter', sans-serif;;
+  color: #13293D;
+  text-decoration: none;
+  column-count: 6;
+  column-gap: 70px;
+  padding-left: 40px;
+  margin-top: 50px;
+  list-style-type: lower-alpha;
+ 
+}
+.container-main-card  a{
+text-decoration: none;
+color: #0B4669;
+
+
+
+
+
+}
+
+ul{
+  color: #13293D;
+  text-decoration: none;
+  column-gap: 20px;
+  padding-left: 40px;
+  margin-top: 40px;
+  column-rule-width: 6px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+ul>li>a{
+text-decoration: none;
+color: #0B4669;
+
+}
+
+/*=============== footer===============*/
+#footer{
+position: absolute;
+text-align: center;
+color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+padding: 1em;
+width: 100%;
+top: 1800px;
+background-color: #13293D;
+margin-top: 10px;
+
+}
+.logo-footer{
+  width: 180px;
+height: 70px;
+  
+}
+.logo-footer:hover{
+  transform: translateY(3px);
+}
+/*=============== footer final===============*/
+.banner-main-01{
+  position: absolute;
+  top: -3em;
+  left: 50px;
+}
+.card-main-01 >a{
+  position: absolute;
+  text-transform: uppercase;
+  font-family: 'inter';
+  top: 135px;
+  left: 320px;
+  font-size: 10pt;
+ color: #13293D;
+}
+.card-main-01 >a:hover{
+  color: #C78C19;
+	text-decoration: underline;
+}
+.card-main-03 >a{
+  position: absolute;
+  text-transform: uppercase;
+  font-family: 'inter';
+  top: 135px;
+  left: 320px;
+  font-size: 10pt;
+ color: #13293D;
+}
+.card-main-03> a:hover{
+  color: #C78C19;
+	text-decoration: underline;
+}
+.card-main-05 >a{
+  position: absolute;
+  text-transform: uppercase;
+  font-family: 'inter';
+  top: 135px;
+  left: 320px;
+  font-size: 10pt;
+ color: #13293D;
+}
+.card-main-05> a:hover{
+  color: #C78C19;
+	text-decoration: underline;
+}
+.card-main-07 >a{
+  position: absolute;
+  text-transform: uppercase;
+  font-family: 'inter';
+  top: 135px;
+  left: 320px;
+  font-size: 10pt;
+ color: #13293D;
+}
+.card-main-07>a:hover{
+  color: #C78C19;
+	text-decoration: underline;
+}
+.card-main-09 >a{
+  position: absolute;
+  text-transform: uppercase;
+  font-family: 'inter';
+  top: 135px;
+  left: 320px;
+  font-size: 10pt;
+ color: #13293D;
+}
+.card-main-09>a:hover{
+  color: #C78C19;
+	text-decoration: underline;
+}
+.card-main-11 >a{
+  position: absolute;
+  text-transform: uppercase;
+  font-family: 'inter';
+  top: 135px;
+  left: 320px;
+  font-size: 10pt;
+ color: #13293D;
+}
+.card-main-11>a:hover{
+  color: #C78C19;
+	text-decoration: underline;
+}
+
+
+
+/*=============== produtos hover===============*/
+.card-main-01:hover{
+  transform: translateY(3px);
+}
+.card-main-03:hover{
+  transform: translateY(3px);
+}
+.card-main-05:hover{
+  transform: translateY(3px);
+}
+.card-main-07:hover{
+  transform: translateY(3px);
+}
+.card-main-09:hover{
+  transform: translateY(3px);
+}
+.card-main-11:hover{
+  transform: translateY(3px);
+}
+
+/*=============== hover-geral===============*/
+
+button:hover{
+  transform: translateY(3px);
+}
+.container-main-02 > a:hover{
+  color: #C78C19;
+}
+ ul>li> a:hover{
+  color: #C78C19;
+}

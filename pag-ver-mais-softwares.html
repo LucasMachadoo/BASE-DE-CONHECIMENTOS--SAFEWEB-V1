@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+      <!--=============== CSS/RESET CSS ===============-->
+   <link rel="stylesheet" href="assets/css/pag-ver-mais-padrao.css">
+   <link rel="stylesheet" href="reset.css">
+   <!--=============== icones ===============-->
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   <!--=============== js ===============-->
+   <link rel="//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js">
+    <title>Softwares Úteis</title>
+</head>
+    <header>
+        <div class="caixa">
+            <h1><img src="assets/img/logo-flat-branco.png" alt="Logo da Safeweb" class="logo-header"></h1>
+            <form action="#" method="post">
+                <div class="search-01">
+                    <input type="text" placeholder="  Pesquise Aqui ..." required >
+                    <button type="submit" class="btn-search">
+                            <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <rect width="23" height="23" fill="url(#pattern0)"/>
+                            <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_56_98" transform="scale(0.0111111)"/>
+                            </pattern>
+                            <image id="image0_56_98" width="90" height="90" xlink:href="data:image/png;base64,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"/>
+                            </defs>
+                            </svg>
+                    </button>
+                </div>
+            </form>
+            <div class="dropdown">
+                <button class="dropbtn"><span class="material-symbols-outlined">person</span>
+                    Lucas gonçalves machado
+                    <span class="material-symbols-outlined"> expand_more</span></button>
+                <div class="dropdown-content">
+                    <a href="login.html">Login</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+            </div>    
+    </header> 
+
+    <footer id="footer">
+        <img src="assets/img/Logo-login.png"alt="Logo da Safeweb" class="logo-footer">
+        <p>&copy; Safeweb Segurança da Informação Ltda - CNPJ: 01.579.286/0001-74 - Av. Princesa Isabel, 828 - Porto Alegre/RS - 90620-000 </p>
+    </footer>
+</body>
+</html>
